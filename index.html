@@ -3,30 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Shayari App - Love & Sad">
     <title>Privacy Policy - Shayari App</title>
     <style>
-        :root {
-            --color-background: #fcfcf9;
-            --color-surface: #fffffd;
-            --color-text: #13343b;
-            --color-text-secondary: #626c71;
-            --color-primary: #218d8d;
-            --color-border: rgba(94, 82, 64, 0.2);
-            --color-card-border: rgba(94, 82, 64, 0.12);
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --color-background: #1f2121;
-                --color-surface: #262828;
-                --color-text: #f5f5f5;
-                --color-text-secondary: rgba(167, 169, 169, 0.7);
-                --color-primary: #32b8c6;
-                --color-border: rgba(119, 124, 124, 0.3);
-                --color-card-border: rgba(119, 124, 124, 0.2);
-            }
-        }
-
         * {
             margin: 0;
             padding: 0;
@@ -34,246 +13,286 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--color-background);
-            color: var(--color-text);
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             padding: 20px;
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            background: var(--color-surface);
-            border-radius: 12px;
-            padding: 30px;
-            border: 1px solid var(--color-card-border);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04);
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+            animation: fadeIn 0.6s ease-in;
         }
 
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid var(--color-border);
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
-        .header h1 {
-            font-size: 28px;
-            font-weight: 600;
-            color: var(--color-primary);
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
             margin-bottom: 10px;
+            text-align: center;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
         }
 
         .effective-date {
-            font-size: 14px;
-            color: var(--color-text-secondary);
-            font-weight: 500;
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 1.1em;
         }
 
         .developer-info {
-            background: rgba(33, 141, 141, 0.08);
-            padding: 15px;
-            border-radius: 8px;
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 10px;
             margin-bottom: 30px;
-            border-left: 4px solid var(--color-primary);
+            border-left: 4px solid #667eea;
         }
 
         .developer-info p {
-            margin: 5px 0;
-            font-size: 14px;
+            margin: 8px 0;
+            font-size: 1.05em;
         }
 
         .developer-info strong {
-            color: var(--color-primary);
+            color: #667eea;
         }
 
-        h2 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            color: var(--color-text);
-        }
-
-        h2:first-of-type {
-            margin-top: 0;
-        }
-
-        p, li {
-            font-size: 15px;
-            color: var(--color-text);
-            margin-bottom: 12px;
-        }
-
-        ul {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        a {
-            color: var(--color-primary);
+        .developer-info a {
+            color: #764ba2;
             text-decoration: none;
-            word-break: break-all;
+            font-weight: 600;
         }
 
-        a:hover {
+        .developer-info a:hover {
             text-decoration: underline;
         }
 
-        .section {
-            margin-bottom: 25px;
+        h2 {
+            color: #764ba2;
+            font-size: 1.8em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 5px solid #764ba2;
         }
 
-        .highlight {
-            background: rgba(33, 141, 141, 0.1);
-            padding: 15px;
-            border-radius: 8px;
-            margin: 15px 0;
+        p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            text-align: justify;
         }
 
-        .contact-box {
-            background: var(--color-background);
+        ul {
+            margin: 15px 0 15px 25px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+
+        .highlight-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
             padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
-            text-align: center;
-            border: 1px solid var(--color-border);
+            border-radius: 10px;
+            margin: 20px 0;
         }
 
-        .contact-box h2 {
-            margin-top: 0;
+        .highlight-box strong {
+            color: #d63384;
+        }
+
+        .third-party-services {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .third-party-services h3 {
+            color: #0056b3;
             margin-bottom: 10px;
         }
 
-        @media (max-width: 600px) {
+        .third-party-services a {
+            color: #0056b3;
+            word-break: break-all;
+        }
+
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: white;
+            border-left: none;
+            padding-left: 0;
+        }
+
+        .contact-section a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        .contact-section a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        @media (max-width: 768px) {
             .container {
-                padding: 20px;
+                padding: 25px;
             }
 
-            .header h1 {
-                font-size: 24px;
+            h1 {
+                font-size: 2em;
             }
 
             h2 {
-                font-size: 18px;
+                font-size: 1.5em;
             }
 
-            p, li {
-                font-size: 14px;
+            body {
+                padding: 10px;
             }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 0.95em;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>PRIVACY POLICY</h1>
-            <p class="effective-date">Effective Date: 14 February 2026</p>
-        </div>
+        <h1>PRIVACY POLICY</h1>
+        
+        <p class="effective-date">Effective Date: 14 February 2026</p>
 
         <div class="developer-info">
             <p><strong>Developer Name:</strong> Devnur</p>
             <p><strong>Contact Email:</strong> <a href="mailto:sahanurmiya431@gmail.com">sahanurmiya431@gmail.com</a></p>
+            <p><strong>App Name:</strong> Shayari App – Love & Sad</p>
+            <p><strong>Package Name:</strong> com.rajapps.shayari</p>
         </div>
 
-        <p>Devnur ("we", "our", or "us") operates the mobile application <strong>"Shayari App – Love &amp; Sad"</strong> (the "App").</p>
+        <p>Devnur ("we", "our", or "us") operates the mobile application "Shayari App – Love & Sad" (the "App").</p>
+        
         <p>This Privacy Policy explains how we collect, use, and protect information when you use our application.</p>
 
-        <div class="section">
-            <h2>1. App Description</h2>
-            <p>This application is an online-only WebView app. The app loads content from an online website and Firebase services. An active internet connection is required to use the app.</p>
-        </div>
+        <h2>1. App Description</h2>
+        <p>This application is an online-only WebView app. The app loads content from an online website and Firebase services. An active internet connection is required to use the app.</p>
 
-        <div class="section">
-            <h2>2. Information We Do Not Collect</h2>
-            <div class="highlight">
-                <p><strong>We do NOT directly collect or store any personal information such as:</strong></p>
-                <ul>
-                    <li>Name</li>
-                    <li>Phone number</li>
-                    <li>Email address</li>
-                    <li>Home address</li>
-                    <li>Voice recordings</li>
-                    <li>Camera data</li>
-                    <li>Photos or media files</li>
-                    <li>Contacts</li>
-                    <li>Precise location data</li>
-                </ul>
-                <p>The app does not request microphone, camera, or location permissions.</p>
-            </div>
+        <h2>2. Information We Do Not Collect</h2>
+        <div class="highlight-box">
+            <p><strong>We do NOT directly collect or store any personal information such as:</strong></p>
         </div>
+        <ul>
+            <li>Name</li>
+            <li>Phone number</li>
+            <li>Email address</li>
+            <li>Home address</li>
+            <li>Voice recordings</li>
+            <li>Camera data</li>
+            <li>Photos or media files</li>
+            <li>Contacts</li>
+            <li>Precise location data</li>
+        </ul>
+        <p>The app does not request microphone, camera, or location permissions.</p>
 
-        <div class="section">
-            <h2>3. Automatically Collected Information</h2>
-            <p>Some limited technical information may be collected automatically by third-party services used in the app, including:</p>
-            <ul>
-                <li>Device model</li>
-                <li>Operating system version</li>
-                <li>Anonymous device identifiers</li>
-                <li>App usage data</li>
-                <li>Crash reports</li>
-                <li>IP address (for basic connection functionality)</li>
-            </ul>
-            <p>This data is collected automatically and is not used to personally identify users.</p>
-        </div>
+        <h2>3. Automatically Collected Information</h2>
+        <p>Some limited technical information may be collected automatically by third-party services used in the app, including:</p>
+        <ul>
+            <li>Device model</li>
+            <li>Operating system version</li>
+            <li>Anonymous device identifiers</li>
+            <li>App usage data</li>
+            <li>Crash reports</li>
+            <li>IP address (for basic connection functionality)</li>
+        </ul>
+        <p>This data is collected automatically and is not used to personally identify users.</p>
 
-        <div class="section">
-            <h2>4. Third-Party Services</h2>
-            <p>The app uses the following third-party services:</p>
-            
-            <h3 style="font-size: 16px; font-weight: 600; margin-top: 15px; margin-bottom: 10px;">Google AdMob</h3>
+        <h2>4. Third-Party Services</h2>
+        <p>The app uses the following third-party services:</p>
+
+        <div class="third-party-services">
+            <h3>Google AdMob</h3>
             <p>We use Google AdMob to display advertisements. AdMob may collect device identifiers and usage data to provide personalized or non-personalized ads.</p>
-            <p>Learn more: <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a></p>
+            <p><strong>Learn more:</strong> <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a></p>
+        </div>
 
-            <h3 style="font-size: 16px; font-weight: 600; margin-top: 15px; margin-bottom: 10px;">Google Firebase</h3>
+        <div class="third-party-services">
+            <h3>Google Firebase</h3>
             <p>We use Firebase services for hosting, analytics, and performance monitoring. Firebase may collect anonymous device information, usage statistics, and crash reports.</p>
-            <p>Learn more: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></p>
+            <p><strong>Learn more:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></p>
         </div>
 
-        <div class="section">
-            <h2>5. How We Use Information</h2>
-            <p>Automatically collected information is used to:</p>
-            <ul>
-                <li>Improve app performance</li>
-                <li>Monitor app stability</li>
-                <li>Provide advertisements</li>
-                <li>Fix technical issues</li>
-            </ul>
-            <p><strong>We do not sell user data to any third party.</strong></p>
-        </div>
+        <h2>5. How We Use Information</h2>
+        <p>Automatically collected information is used to:</p>
+        <ul>
+            <li>Improve app performance</li>
+            <li>Monitor app stability</li>
+            <li>Provide advertisements</li>
+            <li>Fix technical issues</li>
+        </ul>
+        <p><strong>We do not sell user data to any third party.</strong></p>
 
-        <div class="section">
-            <h2>6. Children's Privacy</h2>
-            <p>This app is not directed to children under the age of 13. We do not knowingly collect personal information from children.</p>
-        </div>
+        <h2>6. Children's Privacy</h2>
+        <p>This app is not directed to children under the age of 13. We do not knowingly collect personal information from children.</p>
 
-        <div class="section">
-            <h2>7. External Links</h2>
-            <p>Since this app loads web-based content, it may contain links to external websites. We are not responsible for the privacy practices of those websites.</p>
-        </div>
+        <h2>7. External Links</h2>
+        <p>Since this app loads web-based content, it may contain links to external websites. We are not responsible for the privacy practices of those websites.</p>
 
-        <div class="section">
-            <h2>8. Data Security</h2>
-            <p>We take reasonable measures to protect information. However, no method of transmission over the internet is 100% secure.</p>
-        </div>
+        <h2>8. Data Security</h2>
+        <p>We take reasonable measures to protect information. However, no method of transmission over the internet is 100% secure.</p>
 
-        <div class="section">
-            <h2>9. Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
-        </div>
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
 
-        <div class="contact-box">
+        <div class="contact-section">
             <h2>10. Contact Us</h2>
             <p>If you have any questions regarding this Privacy Policy, you may contact:</p>
-            <p><strong>Developer:</strong> Devnur</p>
+            <p style="margin-top: 15px;"><strong>Developer:</strong> Devnur</p>
             <p><strong>Email:</strong> <a href="mailto:sahanurmiya431@gmail.com">sahanurmiya431@gmail.com</a></p>
         </div>
+
+        <footer>
+            <p>&copy; 2026 Devnur. All rights reserved.</p>
+            <p>Shayari App – Love & Sad</p>
+        </footer>
     </div>
 </body>
 </html>
-
